@@ -31,7 +31,6 @@ Using Visual Format Language, with a single line of code, you can specify multip
 - Priority : Can be set as [view(widthValue@priorityvalue)]. e.g: [view(50@250)]
 - Equal Widths : equal width of two views can be represented as [View1(==View2)]
 - Multiple Predicates: multiple predicates of view can be represented as [view1(>=constant,<=constant)]. e.g: [view1(>=70,<=100)]
-
 ```
 var constraints = AutoLayout.VisualFormat.parse([
     'H:|-[view1(view2,view3)]-[view2]-[view3]-|',
@@ -44,7 +43,7 @@ var constraints = AutoLayout.VisualFormat.parse([
     'V:|-[view3(view6,view9,view12,view15)]-[view6]-[view9]-[view12]-[view15]|',
 ],{extended:true});
 ```
-[Output] (layoutvfl.png)
+![Layout](layoutvfl.png)
 
 
 
