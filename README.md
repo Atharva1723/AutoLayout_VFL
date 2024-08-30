@@ -44,7 +44,7 @@ var constraints = AutoLayout.VisualFormat.parse([
     'V:|-[view3(view6,view9,view12,view15)]-[view6]-[view9]-[view12]-[view15]|',
 ],{extended:true});
 ```
-[layout](layout.png)
+[Layout](layout.png)
 
 
 
